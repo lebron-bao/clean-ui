@@ -1,2 +1,3 @@
 # clean-ui
-is clean
+
+# use pnpm
