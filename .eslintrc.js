@@ -42,6 +42,7 @@ module.exports = defineConfig({
 
   // 在已有规则及基础上微调修改
   rules: {
+    'arrow-parens': ['error', 'as-needed'],
     'vue/singleline-html-element-content-newline': 'off',
     'vue/multiline-html-element-content-newline': 'off',
     'import/no-extraneous-dependencies': 'off',
