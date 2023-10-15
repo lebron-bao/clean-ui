@@ -1,0 +1,10 @@
+{
+  "name": "@myclean-ui/demo",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev"
+  },
+  "dependencies": {
+    "@myclean-ui/ui": "workspace:^"
+  }
+}

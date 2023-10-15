@@ -1,0 +1,43 @@
+{
+  "name": "@myclean-ui/shared",
+  "version": "0.0.0",
+  "description": "vue component lib",
+  "keywords": [
+    "vue",
+    "ui",
+    "component library"
+  ],
+  "author": "jiabao",
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkn1234/openx-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gkn1234/openx-ui/issues"
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "echo test"
+  },
+  "types": "",
+  "exports": {
+    ".": {
+      "require": "./dist/cleanui-shared.umd.js",
+      "import": "./dist/cleanui-shared.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "vue": ">=3.2.0"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.199",
+    "lodash": "^4.17.21"
+  }
+}

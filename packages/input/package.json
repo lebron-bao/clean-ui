@@ -1,0 +1,40 @@
+{
+  "name": "@myclean-ui/input",
+  "version": "0.0.0",
+  "description": "vue component lib",
+  "keywords": [
+    "vue",
+    "ui",
+    "component library"
+  ],
+  "author": "jiabao",
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkn1234/openx-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gkn1234/openx-ui/issues"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "exports": {
+    ".": {
+      "require": "./dist/cleanui-input.umd.js",
+      "import": "./dist/cleanui-input.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "vue": ">=3.2.0"
+  },
+  "dependencies": {
+    "@myclean-ui/shared": "workspace:^"
+  }
+}
